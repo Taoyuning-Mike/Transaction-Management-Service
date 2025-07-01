@@ -1,0 +1,19 @@
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# settings
+.settings/
+
+#project
+.project
+
+#idea
+.idea/
+
+#target
+target/
+
