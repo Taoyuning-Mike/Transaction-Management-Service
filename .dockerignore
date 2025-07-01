@@ -1,8 +1,7 @@
-# Git 相关
+#git
 .git
-.gitignore
 
-# IDE 相关
+#idea
 .idea/
 *.iml
 .vscode/
@@ -10,26 +9,25 @@
 .project
 .classpath
 
-# 构建相关
-target/
+# build
 build/
 *.log
 
-# OS 相关
+# OS related
 .DS_Store
 Thumbs.db
 
-# 临时文件
+# tmp file
 *.tmp
 *.temp
 *.bak
 
-# 测试报告
+# test report
 *.xml
 
-# 文档
+# doc
 *.md
 !README.md
 
-# 其他
+# other
 *.orig 
