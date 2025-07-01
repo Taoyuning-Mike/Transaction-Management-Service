@@ -57,8 +57,8 @@ class TransactionControllerTest {
                 100.00,
                 "USD",
                 "DEPOSIT",
-                LocalDateTime.now(),
-                "REF001"
+                "REF001",
+                LocalDateTime.now()
         );
     }
 
@@ -160,8 +160,8 @@ class TransactionControllerTest {
                 200.00,
                 "EUR",
                 "WITHDRAWAL",
-                LocalDateTime.now(),
-                "REF002"
+                "REF002",
+                LocalDateTime.now()
         );
         when(transactionService.updateTransaction(eq("test-id"), any(TransactionRequest.class)))
                 .thenReturn(updatedResponse);

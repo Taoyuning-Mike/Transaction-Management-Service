@@ -211,8 +211,8 @@ public class TransactionServiceImpl implements TransactionService {
                 transaction.getAmount(),
                 transaction.getCurrency(),
                 transaction.getTransactionType(),
-                transaction.getTimestamp(),
-                transaction.getTransactionReference()
+                transaction.getTransactionReference(),
+                transaction.getTimestamp()
         );
     }
 } 

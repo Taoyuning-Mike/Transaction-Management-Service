@@ -14,19 +14,19 @@ public class TransactionResponse {
     private double amount;
     private String currency;
     private String transactionType;
-    private LocalDateTime timestamp;
     private String transactionReference;
+    private LocalDateTime timestamp;
 
     public TransactionResponse() {}
 
     public TransactionResponse(String id, double amount, String currency, String transactionType,
-                             LocalDateTime timestamp, String transactionReference) {
+                             String transactionReference, LocalDateTime timestamp) {
         this.id = id;
         this.amount = amount;
         this.currency = currency;
         this.transactionType = transactionType;
-        this.timestamp = timestamp;
         this.transactionReference = transactionReference;
+        this.timestamp = timestamp;
     }
 
     // Getters and Setters
@@ -62,20 +62,20 @@ public class TransactionResponse {
         this.transactionType = transactionType;
     }
 
-    public LocalDateTime getTimestamp() {
-        return timestamp;
-    }
-
-    public void setTimestamp(LocalDateTime timestamp) {
-        this.timestamp = timestamp;
-    }
-
     public String getTransactionReference() {
         return transactionReference;
     }
 
     public void setTransactionReference(String transactionReference) {
         this.transactionReference = transactionReference;
+    }
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
     }
 
 } 

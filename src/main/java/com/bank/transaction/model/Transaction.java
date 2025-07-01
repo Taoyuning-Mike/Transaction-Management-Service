@@ -25,9 +25,9 @@ public class Transaction {
     @NotBlank
     private String transactionType;
 
-    private LocalDateTime timestamp;
-
     private String transactionReference;
+
+    private LocalDateTime timestamp;
 
     public Transaction() {
         this.id = UUID.randomUUID().toString();
@@ -75,6 +75,14 @@ public class Transaction {
         this.transactionType = transactionType;
     }
 
+    public String getTransactionReference() {
+        return transactionReference;
+    }
+
+    public void setTransactionReference(String transactionReference) {
+        this.transactionReference = transactionReference;
+    }
+
     public LocalDateTime getTimestamp() {
         return timestamp;
     }
@@ -83,13 +91,6 @@ public class Transaction {
         this.timestamp = timestamp;
     }
 
-    public String getTransactionReference() {
-        return transactionReference;
-    }
-
-    public void setTransactionReference(String transactionReference) {
-        this.transactionReference = transactionReference;
-    }
 
     @Override
     public boolean equals(Object o) {

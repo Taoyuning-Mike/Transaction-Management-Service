@@ -31,7 +31,7 @@
 > - JUnit 5 + Mockito
 > - Docker
 >
-> ## 
+> 
 >
 > ### Running in Local
 >
@@ -120,8 +120,8 @@
 >    "amount": 500.00,
 >    "currency": "USD",
 >    "transactionType": "DEPOSIT",
->    "timestamp": "2025-05-15T11:30:00",
->    "transactionReference": "REF1"
+>    "transactionReference": "REF1",
+>    "timestamp": "2025-05-15T11:30:00"
 > }
 > ```
 >
@@ -151,8 +151,8 @@
 >            "amount": 500.00,
 >            "currency": "USD",
 >            "transactionType": "DEPOSIT",
->            "timestamp": "2025-05-15T11:30:00",
->            "transactionReference": "REF1"
+>            "transactionReference": "REF1",
+>            "timestamp": "2025-05-15T11:30:00"
 >         }
 >    ],
 >    "page": 0,
