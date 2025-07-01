@@ -116,12 +116,12 @@
 >
 > ```
 > {
->    "id": "751e8400-d29b-41d4-a816-446655440000",
->    "amount": 500.00,
+>    "id": "8f0679b5-f615-480f-8d03-34be785791b6",
+>    "amount": 500,
 >    "currency": "USD",
 >    "transactionType": "DEPOSIT",
 >    "transactionReference": "REF1",
->    "timestamp": "2025-05-15T11:30:00"
+>    "timestamp": "2025-07-01T10:49:14.8508074"
 > }
 > ```
 >
@@ -147,12 +147,12 @@
 > {
 >    "content": [
 >         {
->            "id": "751e8400-d29b-41d4-a816-446655440000",
->            "amount": 500.00,
+>            "id": "8f0679b5-f615-480f-8d03-34be785791b6",
+>            "amount": 500,
 >            "currency": "USD",
 >            "transactionType": "DEPOSIT",
 >            "transactionReference": "REF1",
->            "timestamp": "2025-05-15T11:30:00"
+>            "timestamp": "2025-07-01T10:49:14.8508074"
 >         }
 >    ],
 >    "page": 0,
@@ -174,8 +174,8 @@
 > 
 > {
 >    "amount": 300.00,
->    "currency": "EUR",
->    "transactionType": "WITHDRAWAL",
+>    "currency": "CNY",
+>    "transactionType": "TRANSFER",
 >    "transactionReference": "REF2"
 > }
 > ```
